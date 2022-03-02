@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100px;
+  height: 80vh;
+  background-color: rgb(43, 36, 36);
+  margin-top: -65px;
+  color: white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.set {
+  background-color: darkblue;
+  align-items: space-between;
+}

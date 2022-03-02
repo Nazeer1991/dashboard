@@ -1,0 +1,31 @@
+.cardcover {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardcover > .title > span {
+  font-size: 1.25rem;
+  padding: 20px 10px;
+}
+.title {
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 10px;
+}
+.below {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 5px;
+}
+.number {
+  /* margin: auto; */
+  font-size: 4rem;
+  margin-left: 30px;
+  font-weight: 300;
+}

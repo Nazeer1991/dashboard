@@ -1,0 +1,36 @@
+.subHeader {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+.name > h3,
+.name > p {
+  padding: 1px;
+}
+.name > p {
+  color: grey;
+}
+ul {
+  display: flex;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+li {
+  padding: 24px;
+}
+li:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
+.name {
+  margin-left: 170px;
+}
+.subRight {
+  display: flex;
+  align-items: center;
+}
+.threeDot {
+  padding: 5px;
+}
